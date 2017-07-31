@@ -1,0 +1,21 @@
+#banner {
+    background-color: #2cc91e;
+    height: 128px;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+#selection {
+    position: absolute;
+    top: 275px;
+    border-style: solid;
+    margin: auto;
+    text-align: center;
+}
+
+#toMenu {
+    text-decoration: none;
+    font-size: 150%;
+}
