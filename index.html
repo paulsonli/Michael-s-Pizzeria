@@ -9,28 +9,119 @@
         <script src="script.js"></script>
     </head>
     <body>
+        <!-- banner and logo -->
         <div class = "row"  id = "banner">
-            <img width = "200" height = "125" id = "logo" src = "http://static1.squarespace.com/static/50230bbd84ae28a62a536a29/t/522e8eece4b048babe08ffde/1412192567146/?format=750w">
-          
+            <img width = "250" height = "125" id = "logo" src = "http://static1.squarespace.com/static/50230bbd84ae28a62a536a29/t/522e8eece4b048babe08ffde/1412192567146/?format=750w">
         </div>
         
-        <div class = "row">
-            <div id = "selection" class = "col-xs-10">
-                <div id = "toMenu">
-                    <a href = "Menu.html">
-                        Menu
-                    </a>
+        <!-- to home, gallery and about page -->
+        <div class = "container" id = "midSectionDiv">
+           
+            <div id = "midSection" class = "row">
+                <div id = "toMenuDiv" class = "col-md-4">
+                    <div id = "toMenu">
+                        <a href = "Menu.html"> Menu </a>
+                    </div>
                 </div>
+                <div id = "toGalleryDiv" class = "col-md-4">
+                    <div id = "toGallery">
+                        <a href = "Gallery.html"> Gallery </a>
+                    </div>
+                </div>
+                <div id = "toAboutDiv" class = "col-md-4">
+                    <div id = "toAbout">
+                        <a href = "About.html"> About Us </a>
+                    </div>
+                </div>
+                
                 
             </div>
         </div>
         
+        <!-- slideshow -->
+        <div class = "container" id = "ssDiv">
+                <!-- Carousel Code --> 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        
+      </ol>
+    
+      <!-- Wrapper for slides -->
       
       
-        <div id = "slideshow"> 
-            <!-- Code for carasoul --> 
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class= "gallery" src="Pics/beyonce.jpg" alt="Beyonce">
+          <div class="carousel-caption">
+            <h3>Beyonce</h3>
+            <p id = "BeyonceQuote"> "I always treat myself to one meal on Sundays when I can have whatever I want. Usually it's pizza, which is my favorite indulgence."</p>
+          </div>
         </div>
-       
+    
+        <div class="item">
+          <img class="gallery" src="Pics/pat-stewart.jpg" alt="Patrick Stewart">
+          <div class="carousel-caption">
+            <h3>Patrick Stewart</h3>
+            <p> </p>
+          </div>
+        </div>
+    
+        <div class="item">
+          <img class="gallery" src="Pics/sofia-vergara.jpg" alt="Sofia Vergara">
+          <div class="carousel-caption">
+            <h3>Sofia Vergara</h3>
+            <p></p>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class= "gallery" src="Pics/tori-kelly.jpg" alt="Tori Kelly">
+          <div class="carousel-caption">
+            <h3>Tori Kelly</h3>
+            <p></p>
+          </div>
+        </div>
+            
+            <div class="item">
+          <img class="gallery" src="Pics/aziz.jpg" alt="Aziz Ansari">
+          <div class="carousel-caption">
+            <h3>Aziz Ansari</h3>
+            <p></p>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    
+      <!-- Left and right controls -->
+      
+      
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+          
+      
+     
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          
+        
+        </div>
+             <!-- --> 
+        </div>
+      
+      
+      
        
        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
