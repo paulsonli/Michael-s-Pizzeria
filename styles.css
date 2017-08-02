@@ -3,6 +3,11 @@
     background-color: #2cc91e;
     height: 128px;
     margin: 0;
+    box-shadow: 0 10px 10px #888888;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 #logo {
@@ -16,13 +21,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 300px;
     
 }
 
 #midSection {
     border-style: solid;
-    top: 150px;
     margin: 0;
     padding: 0;
     
@@ -40,8 +44,6 @@
     font-size: 40px;
     background-color: #29bd15;
 }
-
-
 
 #toGallery {
     border-style: solid;
