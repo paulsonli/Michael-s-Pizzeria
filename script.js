@@ -2,7 +2,7 @@
 /* global $ */ 
 $(document).ready(function(){
     $("#myCarousel").carousel({
-        interval: 1700        
+        interval: 3000        
     });
  
  
@@ -14,18 +14,11 @@ $(document).ready(function(){
     $("li").removeClass("active");
     $(this).addClass("active"); 
   
-    $('.carousel-inner').hide();
-    $('#ssBackground').hide();
-    
-    $('about').hide();
-    
-    
-    
+
     $(clicked_href).show();
      
   });
- 
- 
+    
 
 
 
