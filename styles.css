@@ -8,10 +8,10 @@
     top: 0;
     width: 100%;
     z-index: 1;
+    opacity: .95;
 }
 
 #logo {
-    padding-left: 30px;
     display: block;
     margin: auto;
 }
@@ -28,7 +28,6 @@
 #midSection {
     border-style: solid;
     margin: 0;
-    padding: 0;
     
 }
 
@@ -68,6 +67,31 @@
     line-height: 200px;
     font-size: 40px;
     background-color: red;
+}
+
+#toContacts {
+    border-style: solid;
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 50px;
+    border-radius: 5px;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 20px;
+    float: right;
+    background-color: white;
+    padding: 5px;
+    color: #5f5f5f;
+    -webkit-transition: all 0.45s ease-in-out;
+}
+
+#toContacts:hover {
+    background-color: #ff305d;
+    color: #c4c2c1;
+}
+/* change link color */
+#toContactLink:link {
+    color: #5f5f5f;
 }
 
 #ssDiv {
