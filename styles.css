@@ -1,6 +1,6 @@
 /* bann and logo */
 #banner {
-    background-color: #2cc91e;
+    background-color: red;
     height: 128px;
     margin: 0;
     box-shadow: 0 5px 1px #4a4646;
@@ -119,7 +119,7 @@
     color: #c4c2c1;
     
 }
-/* change link color */
+
 #toContactLink:link {
     color: #5f5f5f;
 }
@@ -137,16 +137,129 @@
     background-color: white;
     width: 100%;
     padding: 0;
+    padding-bottom: 0;
     
 }
 
 #bottomBanner {
-    height: 128px;
+    height: 118px;
     margin: 0;
     bottom: 0%;
     width: 100%;
     background-color: red;
     top: 150px;
+    padding: 20px;
+}
+
+#bottomContainer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+#bottomLogo {
+    width: 160px;
+    height: 81px;
+    display: block;
+    border-right: solid white 1px;
+    float: left;
+    
+}
+
+#bottomName {
+    width: 260px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Italiana', serif;
+}
+
+#date {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    text-align: right;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Italiana', serif;
+    border-top: solid 1px;
+    display: inline-block;
+    clear: left;
+}
+
+#freshDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("Pics/eggs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+}  
+
+#fresh {
+    color: white;
+    text-shadow:  2px 2px green;
+}
+
+
+
+#organicDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("Pics/cow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+    margin-left: 10px;
+}  
+
+#organic {
+    color: white;
+    text-shadow:  2px 2px black;
+}
+
+#homemadeDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("Pics/homemade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+    margin-left: 10px;
+}  
+
+#homemade {
+    color: white;
+    text-shadow:  2px 2px red;
 }
 
 /* Gallery */
@@ -165,3 +278,45 @@
     
 }
 
+.descr{
+    margin: 30px 30px;
+    margin-left: 40px ;
+    margin-right: 90px ;
+    font-size: 20px;
+}
+
+.aboutPics{
+    display: block;
+    margin: auto;
+    width: 40%;
+   
+}
+
+.pizzeria {
+    text-align: center;
+
+}
+    
+
+.aboutPage{
+    text-align: center;
+}
+
+#store{
+    width: 500px;
+    height: 350px;
+}
+#about{
+    
+}
+li{
+    font-size:25px ;
+    margin-left: 350px;
+    display: block;
+}
+
+#sellOutDiv{
+    margin-left:200px;
+
+    
+}
