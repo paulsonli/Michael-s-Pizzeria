@@ -20,11 +20,10 @@
         </ul>
      </div> 
          
-        
-    <div class= "col-xs-6">   
+    <div class= "col-xs-6" id = "contactborder">   
        <div>    
         <h4 class= "contact"> 
-            Email: michaels@michaelspizzeria.org     
+            Email: michaels@michaelspizzeria.com     
         </h4>
          
         <h4 class= "contact"> 
@@ -33,23 +32,25 @@
     </div> 
      
      <div class= "form-group">
-         <form action= "" method= "POST"> 
+         <form action="https://formspree.io/michaels@michaelspizzeria.com"
+      method="POST">
              <label for = "email">YOUR EMAIL:  </label>
-                 <br> <input class = "emailing" placeholder= "E.g. michaels.pizza@email.com"> 
+                 <br> <input class = "emailing" name="_replyto" placeholder= "E.g. michaels.pizza@email.com"> 
             
             <br> <label for = "contact">TYPE YOUR MESSAGE BELOW: </label> 
-                <br> <textarea class ="form input-group-lg" rows= "5" placeholder = "Messages go here."></textarea>
-                <br> <input class= "submit" type= "submit" value = "Submit"> </br>
+                <br> <textarea class ="form input-group-lg" name="Message" rows= "4" placeholder = "Messages go here."></textarea>
+                <br>  <input type="submit" value="Send">  
              </form>
          </div>
     </div>
      
     
-     <div class= "locate col-xs-6"> 
+     <div class= "locate col-xs-6" id = "ourlocation"> 
       <h2 id ="location"> Our Location</h2>
       <img src ="Pics/7CarmineSt-Pizzeria.png "> 
-      <h3>Located at 7 Carmine Street, New York NY, 10014</h3>
+      <h4>Located at 7 Carmine Street, New York NY, 10014</h4>
          </div>
+     
      
      
      
@@ -71,8 +72,8 @@
                     Since 1975
                   </div>
               </div>
-              <div class = "col-md-4">
-                
+              <div id = "bottomAddress" class = "col-md-4">
+                7 Carmine Street New York, NY 10014
               </div>
               
             </div>

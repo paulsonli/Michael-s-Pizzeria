@@ -30,8 +30,8 @@
 }
 
 #logo {
-    display: block;
-    margin: auto;
+    position:absolute;
+    top:0;
 }
 
 #midSectionDiv {
@@ -49,6 +49,14 @@
     margin: 0;
     background-color: lightgray;
     
+}
+
+#hphomenav {
+    margin-left: 0;    
+}
+
+#hpnavbar {
+    left: 16%;
 }
 
 #toMenu {
@@ -99,7 +107,7 @@
 #toContacts {
     border-style: solid;
     text-align: center;
-    margin-top: 35px;
+    margin-top: -22px;
     margin-right: 50px;
     border-radius: 5px;
     vertical-align: middle;
@@ -112,6 +120,11 @@
     -webkit-transition: all 0.45s ease-in-out;
     font-family: 'Italiana', serif;
     font-weight: bold;
+    /*position:absolute;*/
+    /*left:100;*/
+    top: 0;
+    z-index: 2;
+    
 }
 
 #toContacts:hover {
@@ -232,7 +245,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Italiana', serif;
-    margin-left: 10px;
 }  
 
 #organic {
@@ -254,12 +266,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Italiana', serif;
-    margin-left: 10px;
 }  
 
 #homemade {
     color: white;
     text-shadow:  2px 2px red;
+}
+
+#bottom3 {
+    vertical-align: middle;
+    text-align: center;
+    
 }
 
 /* Gallery */
@@ -271,6 +288,7 @@
 
 .quote{
     text-align: center;
+    font-size: 18px;
 }
 h3{
     text-align: center;
@@ -278,11 +296,11 @@ h3{
 
 
 #celebPics{
-    background-color: lightgreen;
+    background-color: #cfc6ca;
     
 }
 #pizzaPics{
-    background-color: #3362b8;
+    background-color: white;
 }
 
 .descr{
@@ -345,6 +363,61 @@ li{
 }  
 
 footer {
-    margin-top: 700px;
+    margin-top: 481px;
     height: 0px;
+}
+
+.food{
+    height: 200px;
+    width: 300px;
+}
+
+.drinks{
+    height: 300px;
+    width: 320px;
+}
+
+#contactborder {
+    border-right: solid 1px black;
+}
+
+#ourlocation {
+    padding-left: 50px;
+}
+
+#bottomAddress {
+    width: 260px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Italiana', serif;
+    top: 74%;
+    float: right;
+}
+
+.price {
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+}
+
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 50px;
+  
+}
+
+#fb {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  
+  font-size: 50px;
+  
 }

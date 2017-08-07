@@ -8,17 +8,29 @@
         <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
         <script src="script.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     </head>
     <body>
       <div id = "imgDiv">
         <!-- banner and logo -->
         <div class = "row"  id = "banner">
-              <div id = "toContacts">
-                <a id = "toContactLink" href = "contacts.html" style = "display:block"> Contact Us </a>
+          <div class = "col-md-2">
+            <img style="height:100px; width:200px" class = "col-md-2" id = "logo" src = "http://static1.squarespace.com/static/50230bbd84ae28a62a536a29/t/522e8eece4b048babe08ffde/1412192567146/?format=750w">
+          </div>
+          <div id = "hpnavbar"id= "homenav" class = "col-md-8">
+          <ul class="nav nav-pills" >
+            <li id = "hphomenav"class="active"><a href="index.html">Home</a></li>
+            <li ><a href="Menu.html">Menu</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            
+            </ul>
+         </div> 
+              <div id = "toContacts" class = "col-md-2">
+                <a id = "toContactLink"  href = "contacts.html" style = "display:block"> Contact Us </a>
               </div>
-                <img width = "230" height = "125" id = "logo" src = "http://static1.squarespace.com/static/50230bbd84ae28a62a536a29/t/522e8eece4b048babe08ffde/1412192567146/?format=750w">
+
         </div>
-        
         
         <!-- to home, gallery and about page -->
         <div class = "container" id = "midSectionDiv">
@@ -102,17 +114,23 @@
           <div class = "container"> 
         
             <div id = "sellOutDiv" class = "row">
-                <div id = "freshDiv" class = "col-md-3">
+                <div id = "freshDiv" class = "col-sm-3">
                     <div id = "fresh">
                        Fresh
                     </div>
                 </div>
-                <div id = "organicDiv" class = "col-md-3">
+                <div class = "col-sm-1">
+                
+              </div>
+                <div id = "organicDiv" class = "col-sm-3">
                     <div id = "organic">
                       Organic
                     </div>
                 </div>
-                <div id = "homemadeDiv" class = "col-md-3">
+                <div class = "col-sm-1">
+                
+              </div>
+                <div id = "homemadeDiv" class = "col-sm-3">
                     <div id = "homemade">
                         Homemade
                     </div>
@@ -130,7 +148,12 @@
         <div class = "container" id = "bottomContainer">
           <div class = "row" id = "bottomBanner">
             <div class = "col-md-4">
-              
+              <i class="fa fa-instagram" id="insta" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
+              <i class="fa fa-facebook" id="fb" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
             </div>
             
             <div id = "bottomLogo" class = "col-md-2">
@@ -143,8 +166,8 @@
                     Since 1975
                   </div>
               </div>
-              <div class = "col-md-4">
-                
+              <div id = "bottomAddress" class = "col-md-4">
+                7 Carmine Street New York, NY 10014
               </div>
               
             </div>
