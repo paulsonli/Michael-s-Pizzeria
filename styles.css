@@ -269,13 +269,20 @@
     margin: 0 auto;
 }
 
-#BeyonceQuote {
-    color: turquoise;
-    font-size: 25px;
+.quote{
+    text-align: center;
 }
-.carousel-inner{
+h3{
+    text-align: center;
+}
+
+
+#celebPics{
     background-color: lightgreen;
     
+}
+#pizzaPics{
+    background-color: #3362b8;
 }
 
 .descr{
@@ -283,6 +290,7 @@
     margin-left: 40px ;
     margin-right: 90px ;
     font-size: 20px;
+    font-family: Italiana, serif;
 }
 
 .aboutPics{
@@ -294,21 +302,17 @@
 
 .pizzeria {
     text-align: center;
+    font-family:Times New Roman ;
 
 }
     
 
 .aboutPage{
     text-align: center;
+    font-family: Times New Roman;
 }
 
-#store{
-    width: 500px;
-    height: 350px;
-}
-#about{
-    
-}
+
 li{
     font-size:25px ;
     margin-left: 350px;
@@ -319,4 +323,28 @@ li{
     margin-left:200px;
 
     
+}
+
+.contacting {
+    width: 300px;
+    height: 200px;
+}
+
+.emailing{
+    width: 450px;
+}
+.input-group-lg{
+    width: 450px;
+    height: 225px;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    color: red;
+    
+}  
+
+footer {
+    margin-top: 700px;
+    height: 0px;
 }
