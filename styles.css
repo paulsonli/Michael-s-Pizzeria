@@ -3,7 +3,7 @@
     background-color: red;
     height: 128px;
     margin: 0;
-    box-shadow: 0 5px 1px #4a4646;
+    box-shadow: 0 5px 10px #4a4646;
     position: fixed;
     top: 0;
     width: 100%;
@@ -31,7 +31,7 @@
 
 #logo {
     position:absolute;
-    top:0;
+    margin-top: 10px;
 }
 
 #midSectionDiv {
@@ -43,65 +43,12 @@
     top: 300px;
 }
 
-#midSection {
-    border-style: solid;
-    border-width: 2px;
-    margin: 0;
-    background-color: lightgray;
-    
-}
-
 #hphomenav {
     margin-left: 0;    
 }
 
 #hpnavbar {
-    left: 16%;
-}
-
-#toMenu {
-    border-style: solid;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    height: 200px;
-    vertical-align: middle;
-    line-height: 200px;
-    font-size: 40px;
-    background-color: #29bd15;
-    font-family: 'Italiana', serif;
-    font-weight: bold;
-}
-
-#toGallery {
-    border-style: solid;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    height: 200px;
-    vertical-align: middle;
-    line-height: 200px;
-    font-size: 40px;
-    background-color: white;
-    font-family: 'Italiana', serif;
-    font-weight: bold;
-}
-
-#toAbout {
-    border-style: solid;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    height: 200px;
-    vertical-align: middle;
-    line-height: 200px;
-    font-size: 40px;
-    background-color: red;
-    font-family: 'Italiana', serif;
-    font-weight: bold;
+    left: 10%;
 }
 
 #toContacts {
@@ -120,8 +67,6 @@
     -webkit-transition: all 0.45s ease-in-out;
     font-family: 'Italiana', serif;
     font-weight: bold;
-    /*position:absolute;*/
-    /*left:100;*/
     top: 0;
     z-index: 2;
     
@@ -130,6 +75,11 @@
 #toContacts:hover {
     background-color: #ff305d;
     color: #c4c2c1;
+    
+}
+
+#toContactLink{ 
+    color: red;
     
 }
 
@@ -273,6 +223,26 @@
     text-shadow:  2px 2px red;
 }
 
+#ovenBakedDiv {
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 40px;
+    background-image: url("Pics/ovenbaked.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Italiana', serif;
+}
+#ovenBaked {
+    color: white;
+    text-shadow:  2px 2px Blue;
+}
+
 #bottom3 {
     vertical-align: middle;
     text-align: center;
@@ -309,6 +279,7 @@ h3{
     margin-right: 90px ;
     font-size: 20px;
     font-family: Italiana, serif;
+    font-weight: bold;
 }
 
 .aboutPics{
@@ -338,9 +309,8 @@ li{
 }
 
 #sellOutDiv{
-    margin-left:200px;
-
-    
+    position: relative;
+    left: 3%;
 }
 
 .contacting {
@@ -348,9 +318,15 @@ li{
     height: 200px;
 }
 
+
 .emailing{
     width: 450px;
 }
+
+#eventMessage {
+    width: 450px;
+}
+
 .input-group-lg{
     width: 450px;
     height: 225px;
@@ -383,6 +359,7 @@ footer {
 
 #ourlocation {
     padding-left: 50px;
+    margin-top: 200px;
 }
 
 #bottomAddress {
@@ -402,6 +379,7 @@ footer {
 .price {
     font-family: 'Italiana', serif;
     font-size: 20px;
+    font-weight: bold;
 }
 
 #insta {
@@ -420,4 +398,46 @@ footer {
   
   font-size: 50px;
   
+}
+
+#menuFooter{
+    margin-top: 2500px;
+}
+
+
+#eventForm {
+    padding-left: 8%;
+    width: 65%;
+    height: 414px;
+    border-right: solid 2px pink
+    
+    
+}
+
+#eventChoices {
+    float: right;
+    padding-right: 2%;
+}
+
+.eventText {
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pizzamenu {
+    padding-left: 15px;
+}
+
+#store{
+    height:450px ;
+    margin-bottom: 30px;
+}
+#menuhead{
+    text-align: center;
+    font-family: 'Italiana' , serif;
+}
+
+.form-group{
+    margin-top: 200px;
 }
