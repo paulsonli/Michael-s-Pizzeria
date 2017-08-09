@@ -6,13 +6,14 @@
         <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
         <script type="text/javascript" src="script.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     </head>
     <body>
-        <div class = "row"  id = "banner">
+       <div class = "row"  id = "banner">
           <div class = "col-md-2">
             <img style="height:100px; width:200px" class = "col-md-2" id = "logo" src = "http://static1.squarespace.com/static/50230bbd84ae28a62a536a29/t/522e8eece4b048babe08ffde/1412192567146/?format=750w">
           </div>
-          <div id = "hpnavbar"id= "homenav" class = "col-md-8">
+          <div id = "hpnavbar" id= "homenav" class = "col-md-8">
           <ul class="nav nav-pills" >
             <li id = "hphomenav"><a href="index.html">Home</a></li>
             <li ><a href="Menu.html">Menu</a></li>
@@ -22,16 +23,13 @@
             
             </ul>
          </div> 
-              <div id = "toContacts" class = "active col-md-2">
+              <div id = "toContacts" class = "col-md-2">
                 <a id = "toContactLink"  href = "contacts.html" style = "display:block"> Contact Us </a>
               </div>
 
         </div>
-         
-         
-
-         
-    <div class= "col-xs-6" id = "contactborder">   
+        
+     <div class= "col-xs-6" id = "contactborder">   
        <div>    
         <h4 class= "contact"> 
             Email: michaels@michaelspizzeria.com     
@@ -42,13 +40,16 @@
         </h4>
     </div> 
      
-     <div class= "form-group">
-         <form action="https://formspree.io/michaels@michaelspizzeria.com"
-      method="POST">
-             <label for = "email">YOUR EMAIL:  </label>
+     <div class= "form-group" id="contact-form">
+         <form  action="https://formspree.io/michaels@michaelspizzeria.com" method="POST">
+           <br>  <label for = "name"> First Name: </label> 
+               <br>   <input class = "emailing" placeholder= "First Name" >
+            <br> <label for = "name"> Last Name: </label>
+                <br>  <input class= "emailing" placeholder= "Last Name"> 
+            <br>  <label for = "email">Your Email:  </label>
                  <br> <input class = "emailing" name="_replyto" placeholder= "E.g. michaels.pizza@email.com"> 
             
-            <br> <label for = "contact">TYPE YOUR MESSAGE BELOW: </label> 
+            <br> <label for = "contact">Type Your Message Below: </label> 
                 <br> <textarea class ="form input-group-lg" name="Message" rows= "4" placeholder = "Messages go here."></textarea>
                 <br>  <input type="submit" value="Send">  
              </form>
@@ -56,40 +57,46 @@
     </div>
      
     
-     <div class= "locate col-xs-6" id = "ourlocation"> 
-      <h2 id ="location"> Our Location</h2>
-      <img src ="Pics/7CarmineSt-Pizzeria.png "> 
-      <h4>Located at 7 Carmine Street, New York NY, 10014</h4>
-         </div>
-     
-     
-     
-     
-     
-     <footer> 
-      <div class = "container" id = "bottomContainer">
+        <div class= "locate col-xs-6" id = "ourlocation"> 
+            <h2 id ="location"> Our Location</h2>
+            <img src ="Pics/7CarmineSt-Pizzeria.png "> 
+            <h4>Located at 7 Carmine Street, New York NY, 10014</h4>
+        </div>
+        
+          <!-- bottom banner -->
+        <div class = "container" id = "bottomContainerBOOM">
           <div class = "row" id = "bottomBanner">
-            <div class = "col-xs-4">
-              
+            <div class = "col-md-4">
+              <i class="fa fa-instagram" id="insta" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
+              <i class="fa fa-facebook" id="fb" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
+              <i class="fa fa-twitter" id="twitter" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
             </div>
             
-        <div id = "bottomLogo" class = "col-xs-2">
+            <div id = "bottomLogo" class = "col-md-2">
               <img width = "120" height = "81" id = "logo" src = "http://static1.squarespace.com/static/50230bbd84ae28a62a536a29/t/522e8eece4b048babe08ffde/1412192567146/?format=750w">
             </div>
             
-              <div id = "bottomName" class = "col-xs-2">
+              <div id = "bottomName" class = "col-md-2">
                   Michael's Pizza Bar & Grill
-                  <div id = "date">
+                 <div id = "date">
                     Since 1975
                   </div>
               </div>
-              <div id = "bottomAddress" class = "col-xs-4">
+              <div id = "bottomAddress" class = "col-md-4">
                 7 Carmine Street New York, NY 10014
               </div>
               
             </div>
-          </div>  
-     </footer>
+          </div> 
+
+         
+
    
      
      

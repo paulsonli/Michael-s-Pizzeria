@@ -6,6 +6,7 @@
         <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
         <script type="text/javascript" src="script.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     </head>
     <body>
 
@@ -30,7 +31,6 @@
               </div>
 
         </div>
-   
     <div id="ssBackground">
    
     <!-- Carousel Code --> 
@@ -52,7 +52,7 @@
     <div class="item active">
       <img class= "gallery" src="Pics/beyonce.jpg" alt="Beyonce">
       <div class="caption">
-        <h3>Beyonce</h3>
+        <p class= "celName">Beyonce</p>
         <p class = "quote"> "I always treat myself to one meal on Sundays when I can have whatever I want. Usually it's pizza, which is my favorite indulgence."</p>
       </div>
     </div>
@@ -60,7 +60,7 @@
     <div class="item">
       <img class="gallery" src="Pics/pat-stewart.jpg" alt="Patrick Stewart">
       <div class="caption">
-        <h3>Patrick Stewart</h3>
+        <p class= "celName">Patrick Stewart</p>
         <p class= "quote">"I experienced my first slice of pizza here in New York." </p>
       </div>
     </div>
@@ -68,7 +68,7 @@
     <div class="item">
       <img class="gallery" src="Pics/sofia-vergara.jpg" alt="Sofia Vergara">
       <div class="caption">
-        <h3>Sofia Vergara</h3>
+        <p class= "celName">Sofia Vergara</p>
         <p class= "quote">"You can't say no to pizza."</p>
       </div>
     </div>
@@ -76,7 +76,7 @@
     <div class="item">
       <img class= "gallery" src="Pics/tori-kelly.jpg" alt="Tori Kelly">
       <div class="caption">
-        <h3>Tori Kelly</h3>
+        <p class= "celName">Tori Kelly</p>
         <p class= "quote">"My picture speaks for itself for how much I love pizza."</p>
       </div>
     </div>
@@ -84,7 +84,7 @@
         <div class="item">
       <img class="gallery" src="Pics/aziz.jpg" alt="Aziz Ansari">
       <div class="caption">
-        <h3>Aziz Ansari</h3>
+        <p class= "celName">Aziz Ansari</p>
         <p class= "quote">"Look at how good this looks."</p>
       </div>
     </div>
@@ -110,12 +110,22 @@
        </div>
 
     </div>
+        </div>
 
       <footer>
-     <div class = "container" id = "bottomContainer">
+     <!-- bottom banner -->
+        <div class = "container" id = "bottomContainer">
           <div class = "row" id = "bottomBanner">
             <div class = "col-md-4">
-              
+              <i class="fa fa-instagram" id="insta" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
+              <i class="fa fa-facebook" id="fb" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
+              <i class="fa fa-twitter" id="twitter" aria-hidden="true">
+                <!-- link to that guys insta -->
+              </i>
             </div>
             
             <div id = "bottomLogo" class = "col-md-2">
@@ -124,7 +134,7 @@
             
               <div id = "bottomName" class = "col-md-2">
                   Michael's Pizza Bar & Grill
-                  <div id = "date">
+                 <div id = "date">
                     Since 1975
                   </div>
               </div>
@@ -133,7 +143,7 @@
               </div>
               
             </div>
-          </div>    
+            
         </footer>
     
       
