@@ -11,7 +11,7 @@
     opacity: .95;
 }
 
-#menuBody {
+body {
     overflow-x: hidden;
 }
 
@@ -60,7 +60,7 @@
 #toContacts {
     border-style: solid;
     text-align: center;
-    margin-top: -22px;
+    margin-top: -55px;
     margin-right: 50px;
     border-radius: 5px;
     vertical-align: middle;
@@ -74,8 +74,6 @@
     font-family: 'Italiana', serif;
     font-weight: bold;
     top: 0;
-    z-index: 2;
-    
 }
 
 #toContacts:hover {
@@ -294,7 +292,7 @@
 
 
 #celebPics{
-    background-color: #ff6ab0;
+    background-color: #168ab8;
 }
 
 #pizzaPics{
@@ -697,9 +695,11 @@ li{
     background-color:#15ff00;
     color: #ffffff;
     text-decoration: none;
+    margin-top: 30px;
 }
 
 
 .navColor > .active > a, .nav-pills > .active > a:hover {
     background-color: #E048E5 !important;
 }
+
