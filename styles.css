@@ -11,6 +11,10 @@
     opacity: .95;
 }
 
+#menuBody {
+    overflow-x: hidden;
+}
+
 #imgDiv {
     width:100%;
     height: 800px;
@@ -19,6 +23,17 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+#hpwordPizza {
+    margin-top: 360px;
+    text-align: center;
+    color: white;
+    font-family : 'Italiana' , serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 0 5px 10px #25B22A;
+}
+
 
 #bottomImgDiv {
     width: 100%;
@@ -32,15 +47,6 @@
 #logo {
     position:absolute;
     margin-top: 7px;
-}
-
-#midSectionDiv {
-    margin: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 300px;
 }
 
 #hphomenav {
@@ -120,7 +126,28 @@
     margin-right: 0;
     padding: 0;
     
+    
 }
+
+#bottomThing {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 250px;
+    
+}
+
+#bottomGallery {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 10px;
+    
+}
+
+
 
 #bottomLogo {
     width: 160px;
@@ -260,7 +287,7 @@
 .quote{
     text-align: center;
     font-size: 25px;
-    font-family: Italiana, serif;
+    font-family: 'Italiana', serif;
     font-style: italic;
     font-weight: bold;
 }
@@ -279,7 +306,7 @@
     margin-left: 70px ;
     margin-right: 90px ;
     font-size: 170%;
-    font-family: Italiana, serif;
+    font-family: 'Italiana', serif;
     font-weight: bold;
     border: 2px solid blue ;
     padding: 25px;
@@ -298,14 +325,14 @@
 
 .pizzeria {
     text-align: center;
-    font-family:Times New Roman ;
+    font-family: "Times New Roman" ;
 
 }
     
 
 .aboutPage{
     text-align: center;
-    font-family: Times New Roman;
+    font-family: "Times New Roman";
 }
 
 
@@ -344,12 +371,6 @@ li{
     color: red;
     
 }  
-
-footer {
-    margin-top: 481px;
-    height: 0px;
-}
-
 
 #ourlocation {
     padding-left: 50px;
@@ -398,23 +419,27 @@ footer {
   
 }
 
-#menuFooter{
-    margin-top: 2500px;
-}
-
 
 #eventForm {
-    padding-left: 8%;
-    width: 65%;
-    height: 414px;
-    border-right: solid 2px pink;
+    margin-left: 40px;
+    width: 50%;
+    height: 410px;
+    border-right: solid 1px pink;
     margin-top: 100px;
     margin-bottom: 60px;
+
+}
+
+#partyPic{ 
+    float: right;
+    height: 200px;
+    
+    
 }
 
 #eventChoices {
     float: right;
-    padding-right: 2%;
+    margin-right: 80px;
 }
 
 .eventText {
@@ -430,6 +455,7 @@ footer {
 
 .form-group{
     margin-top: 120px;
+    border-right: 1px solid black;
 }
 
 #bottomContainerBOOM{
@@ -461,6 +487,7 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     height: 450px;
+    padding-right: 0;
 }
 
 #menuEverything {
@@ -491,6 +518,10 @@ footer {
     width: 50%;
 }
 
+#menuPizzaPic {
+    clear: right;
+}
+
 .InfoRight {
     text-align: center;
     font-family: 'Italiana', serif;
@@ -511,6 +542,17 @@ footer {
     left: 70%;
 }
 
+#InfoPizza {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 15%;
+    float: right;
+    right: 25%;
+    position: relative;
+}
+
 #Entrees {
     clear: left;
     text-align: center;
@@ -520,7 +562,7 @@ footer {
 }
 
 #meatballPic {
-    width: 70%;
+    width: 450px;
 }
 
 #ravioli {
@@ -606,8 +648,8 @@ footer {
 }
 
 #dietPepsi {
-    width: 300px;
-    height: 300px; 
+    width: 320px;
+    height: 320px; 
 }
 
 #mist {
@@ -616,16 +658,48 @@ footer {
 }
 
 #sunkist {
-    width: 320px;
-    height: 340px;
+    width: 350px;
+    height: 350px;
 }
 
 #fanta {
-    width: 340px;
+    width: 350px;
+    height: 350px;
+}
+
+#snapple {
+    width: 350px;
     height: 350px;
 }
 
 #drpepper {
-    width: 320px;
-    height: 320px;
+    width: 350px;
+    height: 350px;
+}
+
+#tea {
+    width: 350px;
+    height: 350px;
+}
+
+#water {
+    width: 350px;
+    height: 350px;
+}
+
+#coffee {
+    width: 350px;
+    height: 350px;
+}
+
+.navColor > li > a{
+    -webkit-transition: all 0.45s ease-in-out;
+    background-color:#15ff00;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.navColor > .active > a, .nav-pills > .active > a:hover {
+    background-color: #E048E5 !important;
 }
