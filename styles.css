@@ -292,7 +292,7 @@ body {
 
 
 #celebPics{
-    background-color: #168ab8;
+    background-color: white;
 }
 
 #pizzaPics{
@@ -693,13 +693,20 @@ li{
 .navColor > li > a{
     -webkit-transition: all 0.45s ease-in-out;
     background-color:#15ff00;
-    color: #ffffff;
+    color: white;
+    border-style: solid;
     text-decoration: none;
     margin-top: 30px;
 }
 
 
 .navColor > .active > a, .nav-pills > .active > a:hover {
-    background-color: #E048E5 !important;
+    background-color: red !important;
 }
 
+#partyPic{ 
+     height: 650px;
+     width: 640px;
+     float: left;
+    
+}
